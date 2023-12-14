@@ -40,6 +40,7 @@
             this.btnAltrarDataValidade = new System.Windows.Forms.Button();
             this.btnErroPaf = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMensagem
@@ -104,7 +105,7 @@
             // 
             // btnFcp
             // 
-            this.btnFcp.Location = new System.Drawing.Point(12, 316);
+            this.btnFcp.Location = new System.Drawing.Point(12, 306);
             this.btnFcp.Name = "btnFcp";
             this.btnFcp.Size = new System.Drawing.Size(474, 23);
             this.btnFcp.TabIndex = 6;
@@ -114,7 +115,7 @@
             // 
             // btnTrocarItemOrcamento
             // 
-            this.btnTrocarItemOrcamento.Location = new System.Drawing.Point(12, 345);
+            this.btnTrocarItemOrcamento.Location = new System.Drawing.Point(12, 333);
             this.btnTrocarItemOrcamento.Name = "btnTrocarItemOrcamento";
             this.btnTrocarItemOrcamento.Size = new System.Drawing.Size(474, 23);
             this.btnTrocarItemOrcamento.TabIndex = 7;
@@ -124,7 +125,7 @@
             // 
             // btnAltrarDataValidade
             // 
-            this.btnAltrarDataValidade.Location = new System.Drawing.Point(12, 374);
+            this.btnAltrarDataValidade.Location = new System.Drawing.Point(12, 361);
             this.btnAltrarDataValidade.Name = "btnAltrarDataValidade";
             this.btnAltrarDataValidade.Size = new System.Drawing.Size(474, 23);
             this.btnAltrarDataValidade.TabIndex = 8;
@@ -134,7 +135,7 @@
             // 
             // btnErroPaf
             // 
-            this.btnErroPaf.Location = new System.Drawing.Point(12, 403);
+            this.btnErroPaf.Location = new System.Drawing.Point(12, 388);
             this.btnErroPaf.Name = "btnErroPaf";
             this.btnErroPaf.Size = new System.Drawing.Size(474, 23);
             this.btnErroPaf.TabIndex = 9;
@@ -144,7 +145,7 @@
             // 
             // btnSair
             // 
-            this.btnSair.Location = new System.Drawing.Point(205, 432);
+            this.btnSair.Location = new System.Drawing.Point(205, 441);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(75, 23);
             this.btnSair.TabIndex = 10;
@@ -152,12 +153,23 @@
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 414);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(474, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Ajuste Coletor / Coleta Dados Externo";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmMensagem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(498, 466);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnErroPaf);
             this.Controls.Add(this.btnAltrarDataValidade);
@@ -193,6 +205,7 @@
         private System.Windows.Forms.Button btnAltrarDataValidade;
         private System.Windows.Forms.Button btnErroPaf;
         private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.Button button1;
     }
 }
 

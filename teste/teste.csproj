@@ -60,6 +60,12 @@
     <Compile Include="frmAjusteFCP.Designer.cs">
       <DependentUpon>frmAjusteFCP.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmColetorDados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColetorDados.Designer.cs">
+      <DependentUpon>frmColetorDados.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDtMovContabilCOB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAjusteFCP.resx">
       <DependentUpon>frmAjusteFCP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmColetorDados.resx">
+      <DependentUpon>frmColetorDados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDtMovContabilCOB.resx">
       <DependentUpon>frmDtMovContabilCOB.cs</DependentUpon>

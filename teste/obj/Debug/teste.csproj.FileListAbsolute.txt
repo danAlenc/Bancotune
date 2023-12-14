@@ -18,3 +18,4 @@ D:\Documentos Daniel\CODIGOS\C#\Nova pasta\teste\teste\obj\Debug\teste.frmDtMovC
 D:\Documentos Daniel\CODIGOS\C#\Nova pasta\teste\teste\obj\Debug\teste.frmPedidoCompras.resources
 D:\Documentos Daniel\CODIGOS\C#\Nova pasta\teste\teste\obj\Debug\teste.frmPrecoVendaProduto.resources
 D:\Documentos Daniel\CODIGOS\C#\Nova pasta\teste\teste\obj\Debug\teste.frmValorArredondamentoValorItem.resources
+D:\Documentos Daniel\CODIGOS\C#\Nova pasta\teste\teste\obj\Debug\teste.frmColetorDados.resources

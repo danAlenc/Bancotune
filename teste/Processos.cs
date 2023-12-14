@@ -42,6 +42,8 @@ namespace teste
         private String dtDataMov;
         private String PlanilhaFcp;
         private String EmpresaFcp;
+        private String IdColeta;
+        private String TipoColeta;
 
         public String getEmpresaValorArredondamento()
         {
@@ -183,7 +185,7 @@ namespace teste
         {
             return CoiPedidoCompra;
         }
-        public void setCoiPeidoCompra(String CoiPedidoCompra)
+        public void setCoiPedidoCompra(String CoiPedidoCompra)
         {
             this.CoiPedidoCompra = CoiPedidoCompra;
         }
@@ -291,6 +293,24 @@ namespace teste
         {
             this.dtDataMov = dtDataMov;
         }
+        public String getIdColeta()
+        {
+            return IdColeta;
+        }
+
+        public void setIdColeta(String IdColeta)
+        {
+            this.IdColeta = IdColeta;
+        }
+
+        public String getTipoColeta()
+        {
+            return TipoColeta;
+        }
+        public void setTipoColeta(String TipoColeta)
+        {
+            this.TipoColeta = TipoColeta;
+        }
 
         public void CorrigirValor()
         {
@@ -358,6 +378,11 @@ namespace teste
         {
             Execucao ex = new Execucao();
             ex.alterar_data_Validade(this);
+        }
+        public void AjusteColetor()
+        {
+            Execucao ex = new Execucao();
+            ex.AjusteColetor(this);
         }
 
     }

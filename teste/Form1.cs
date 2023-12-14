@@ -80,5 +80,11 @@ namespace teste
             frmPedidoCompras pdc = new frmPedidoCompras();
             pdc.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmColetorDados cd = new frmColetorDados();
+            cd.ShowDialog();
+        }
     }
 }

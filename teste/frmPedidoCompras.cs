@@ -33,7 +33,7 @@ namespace teste
             {
                 Processos p = new Processos();
                 p.setEmpresaPedidoCompra(txtbEmpresaPedidoCompra.Text);
-                p.setCoiPeidoCompra(txtbCoiPedidoCompra.Text);
+                p.setCoiPedidoCompra(txtbCoiPedidoCompra.Text);
                 p.setPedidoCompra(txtbPedidoCompra.Text);
 
                 p.Pedido_Operacao();
@@ -77,7 +77,7 @@ namespace teste
             {
                 Processos p = new Processos();
                 p.setEmpresaPedidoCompra(txtbEmpresaPedidoCompra.Text);
-                p.setCoiPeidoCompra(txtbCoiPedidoCompra.Text);
+                p.setCoiPedidoCompra(txtbCoiPedidoCompra.Text);
                 p.setPedidoCompra(txtbPedidoCompra.Text);
                 p.setdtPedidoCompra(dtPedidoCompra.Text);
 
